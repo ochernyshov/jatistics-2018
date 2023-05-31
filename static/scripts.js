@@ -29,7 +29,7 @@ function submit(event) {
   const keyName = event.key;
   if(keyName != "Enter") return false;
   var query = $("#q").val();
-  $(".vacancies").html("<img alt='loading' width='6%' height='auto' style='margin: 10px auto;' src='/static/load.svg'/>");
+  $(".vacancies").html("<img alt='loading' height='64px' style='margin: 10px auto;' src='/static/load.svg'/>");
   var parameters = {
         q: query
   };
