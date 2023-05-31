@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+stats
+{% endblock %}
+
+{% block main %}
+
+<div class="title">
+  Statistics
+</div>
+
+<div class="subtitle">Enter a profession name:</div>
+<input id="q" class="search" name="vacancy" onkeyup="submit(event);" type="text"/>
+
+<div class="vacancies">
+  <div class="hint">Leave the text field blank to search for the most popular profession.</div>  
+</div>
+
+{% endblock %}

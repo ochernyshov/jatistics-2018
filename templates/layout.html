@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="icon" type="image/png" href="/static/favicon.png" />
+        <script type="text/javascript" src="date.js"></script>
+
+        <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+        <!-- http://jquery.com/ -->
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- http://stewartjpark.com/Flask-JSGlue/ -->
+        {{ JSGlue.include() }}
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+        <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <title>Jatistic > {% block title %}{% endblock %}</title>
+    </head>
+
+    <body>
+        {% block main %}{% endblock %}
+    </body>
+
+</html>
