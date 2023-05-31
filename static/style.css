@@ -14,9 +14,9 @@ html, body, input {
 
 body {
   width: 100%;
-  background: radial-gradient(circle at 2.03% 80.00%, #7474BF, transparent 100%),radial-gradient(circle at 97.97% 93.90%, #348AC7, transparent 100%),radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%);
+  background: #252423;
   background-attachment: fixed;
-  color: #eaffde;
+  color: #f2f2f2;
   align-items: center;
 }
 
