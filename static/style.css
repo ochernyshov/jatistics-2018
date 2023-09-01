@@ -36,7 +36,6 @@ input {
    width: 600px;
    max-width: 94%;
    border-radius: 24px;
-   margin: 0 0 1% 0;
    box-shadow: 0 0 3px 1px rgba(0,0,0,.35);
  }
 
@@ -49,7 +48,6 @@ input {
   font-weight: bold;
   font-size: 12vw;
   margin:4%;
-  background: rgba(#2f2f2f, 0.8);
 }
 
 .subtitle {
@@ -61,11 +59,11 @@ input {
 }
 
 .hint {
-  width: 98%;
+  width: 80%;
   font-size: 12px;
   font-weight: 400;
-  margin: 0;
-  padding: 0 1%;
+  margin: auto;
+  padding-top: 6px;
 }
 .text {
   width: 100%;

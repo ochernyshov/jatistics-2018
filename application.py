@@ -43,7 +43,7 @@ def vacancy():
             r = dic
             r = json.dumps(r)
             dates = []
-            buf = cursor.execute('SELECT date, count FROM history WHERE vacancy_id=?;', (id,)).fetchall();
+            buf = cursor.execute('SELECT date, count FROM history WHERE vacancy_id=?;', (id,)).fetchall()
             for date in buf:
                 dd, dc = date
                 dates.append([dd, dc])
