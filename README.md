@@ -1,11 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="/static/favicon.png">
-    <img src="static/favicon.png" alt="Logo" width="80" height="80">
+  <a href="/static/favicon.svg">
+    <img src="static/favicon.svg" alt="Logo" width="80" height="80">
   </a>
-
-<h3 align="center">Jatistics</h3>
+<br/>
+<h1 align="center">Jatistics</h1>
 <i>Unzipped code sample</i>
   <p align="center">
     <br/>
@@ -14,6 +14,7 @@
 
   </p>
 </div>
+<br/>
 
 ## **Getting Started**
 

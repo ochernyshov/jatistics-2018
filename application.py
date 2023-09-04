@@ -1,6 +1,5 @@
 from helper.analyse import standardize, translate
 from flask import Flask, jsonify, render_template, request, url_for
-# from flask_jsglue import JSGlue
 import pickle
 import json
 import sqlite3
@@ -8,7 +7,6 @@ import operator
 import jsonpickle
 
 app = Flask(__name__)
-# JSGlue(app)
 
 @app.route("/")
 def index():
