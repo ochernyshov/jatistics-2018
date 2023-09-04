@@ -20,10 +20,10 @@
 
 1. Clone the repository
 2. Download & Install `python3, pip3, virtualenv`
-3. Create virtualenv inside of project folder: `virtualenv env`
-4. Activate virtual environment: `source env/bin/activate`
+3. Create virtualenv inside of project folder `virtualenv env`
+4. Activate virtual environment `source env/bin/activate`
 5. Install required packages `pip3 install -r requirements.txt`
-6. Run parser to collect and process data: `python3 /helper/parser.py`
+6. Run parser to collect and process data `python3 /helper/parser.py`
 7. Run server application for data searching and visualization `python3 application.py`
 
 ## **Clustering**
